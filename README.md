@@ -1,7 +1,7 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6445593&assignment_repo_type=AssignmentRepo)
 # MAD Assignment Web API (for IT)
 
-### Registration Number: ..............
+### Registration Number: 219000504
 
 ## Scenario
 
@@ -20,4 +20,15 @@ restaurants should have a name, the name of the owner(owner can be individual or
 
 
 #### Link to Postman Collection : 
+
+lecturer, nasabaga ngo Muzankosore monday kuko ubu saturday ngiye ku deployinga DB yanjye kuri heruko bansaba kubanza kuzuza credit card number
+kd ntayo nari nzanzwe mfite. monday nzaba nayibonye kuko nibwo bank zizakora mbone nuko nkora database deploy, kuburyo data zaba available online.
+mbaye pushinze database nakoreshaga localy, kuko API nazikoresheje PHP- with MYSQl-DB (Along with xampp tool)
+
+local default credentials for testing 4r testing:
+
+username:rwema
+PW: pelin123
+
+ 
 #### Link to the Hosted Web API : 
