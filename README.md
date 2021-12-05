@@ -21,14 +21,15 @@ restaurants should have a name, the name of the owner(owner can be individual or
 
 #### Link to Postman Collection : 
 
-lecturer, nasabaga ngo Muzankosore monday kuko ubu saturday ngiye ku deployinga DB yanjye kuri heruko bansaba kubanza kuzuza credit card number
-kd ntayo nari nzanzwe mfite. monday nzaba nayibonye kuko nibwo bank zizakora mbone nuko nkora database deploy, kuburyo data zaba available online.
-mbaye pushinze database nakoreshaga localy, kuko API nazikoresheje PHP- with MYSQl-DB (Along with xampp tool)
+https://rwemaapi.000webhostapp.com/api/restaurants/allrestaurants.php
 
-local default credentials for testing 4r testing:
+Local default credentials for testing testing:
 
-username:rwema
+Username:rwema
 PW: pelin123
-
  
 #### Link to the Hosted Web API : 
+
+https://rwemaapi.000webhostapp.com/
+
+
