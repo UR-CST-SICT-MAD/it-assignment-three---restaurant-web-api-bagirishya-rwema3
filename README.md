@@ -19,17 +19,57 @@ restaurants should have a name, the name of the owner(owner can be individual or
 #### Note: Don't be limited to the features specified in instructions, feel free to add any other feature you think is necessary.
 
 
-#### Link to Postman Collection : 
-
-https://rwemaapi.000webhostapp.com/api/restaurants/allrestaurants.php
-
-Local default credentials for testing testing:
-
-Username:rwema
-PW: pelin123
- 
-#### Link to the Hosted Web API : 
-
+#### Link to the Hosted Web API :
 https://rwemaapi.000webhostapp.com/
 
+#### Link to Postman Collection : 
+
+Credentials for Postman testing:
+
+Username : rwema
+Password : pelin123
+Authentication type : "Basic Auth"
+
+1) https://rwemaapi.000webhostapp.com/api/restaurants/allrestaurants.php //View all restaurant
+-REQUEST=GET
+2) https://rwemaapi.000webhostapp.com/api/dish/read.php //view all dishes
+-REQUEST=GET
+3) https://rwemaapi.000webhostapp.com/api/dish/read_single.php?id=1 or 2,3.. // view single dish
+-REQUEST=GET
+4) https://rwemaapi.000webhostapp.com/api/restaurants/create.php //Add new Restaurant
+-REQUEST=POST
+-Content-Type:Apllication/json body:raw
+{
+    "restaurant_id" : "...", //(unique_id)
+    "restaurant_name" : "...",
+    "owner" : "...",
+    "rating" : "...",
+    "location" : "..."
+}
+
+5) https://rwemaapi.000webhostapp.com/api/restaurants/delete.php  //delete a Restaurant
+-REQUEST=DElETE
+{
+    "restaurant_id" : "..." //(existing restaurant_id)
+}
+
+6) https://rwemaapi.000webhostapp.com/api/dish/delete.php //delete dish
+-REQUEST=DElETE
+{
+id" : "..." (existing dish_id)
+}
+
+7) https://rwemaapi.000webhostapp.com/api/restaurants/update.php //update a restaurant
+REQUEST = PUT
+{
+    "restaurant_id" : "...", //(Existing_id)
+    "restaurant_name" : "...",
+    "owner" : "...",
+    "rating" : "...",
+    "location" : "..."
+}
+
+!! Find restaurant by rating or location:
+
+https://rwemaapi.000webhostapp.com/search.php
 
